@@ -1,0 +1,205 @@
+[
+    {
+        "id":1,
+        "name": "Viola Davis",
+        "photo":"https://snworksceo.imgix.net/ids/dc5fa779-f63e-4e52-bf19-5ae2527681b3.sized-1000x1000.jpg?w=1000",
+        "subtitle": "Mulherão dentro e fora das telas",
+        "about": "Aos 51 anos, Viola é a única atriz negra com três indicações ao Oscar no currículo. Além disso, até hoje nenhuma outra mulher negra recebeu um Emmy de Melhor Atriz – ela venceu em 2016, pela atuação em How to Get Away with Murder.",
+        "phrase":"A única coisa que separa mulheres que não são brancas de todas as outras pessoas é oportunidade.",
+        "history": [
+            "Viola Davis nasceu na fazenda de sua avó em St. Matthews, na Carolina do Sul,  sendo a quinta de seis irmãs. Com apenas dois meses de vida, se mudou com a família para Central Falls, em Rhode Island. Teve uma infância de muita dificuldade e pobreza, mas as coisas começaram a melhorar quando, na escola, descobriu a paixão pelos palcos.",
+            "Em 2015, Viola foi a primeiro afro-americana a ganhar um Emmy de melhor atriz em drama. Ela também foi a única negra a ser premiada no Oscar e no Tony. Assim, ela foi a 23ª atriz na história a completar a chamada Tríplice Coroa de Atuação (em inglês, Triple Crown of Acting)."
+        ],
+        "addedBy":"Gabrielli Venerando"
+    },
+    {
+        "id":2,
+        "name": "",
+        "photo":"url",
+        "subtitle": "",
+        "about": "",
+        "phrase":"",
+        "history": [ ],
+        "addedBy":""
+    },
+    {
+        "id":3,
+        "name": "",
+        "photo":"url",
+        "subtitle": "",
+        "about": "",
+        "phrase":"",
+        "history": [ ],
+        "addedBy":""
+    },
+    {
+        "id":4,
+        "name": "",
+        "photo":"url",
+        "subtitle": "",
+        "about": "",
+        "phrase":"",
+        "history": [ ],
+        "addedBy":""
+    },
+    {
+        "id":5,
+        "name": "",
+        "photo":"url",
+        "subtitle": "",
+        "about": "",
+        "phrase":"",
+        "history": [ ],
+        "addedBy":""
+    },    
+    {
+        "id":6,
+        "name": "",
+        "photo":"url",
+        "subtitle": "",
+        "about": "",
+        "phrase":"",
+        "history": [ ],
+        "addedBy":""
+    },    
+    {
+        "id":7,
+        "name": "",
+        "photo":"url",
+        "subtitle": "",
+        "about": "",
+        "phrase":"",
+        "history": [ ],
+        "addedBy":""
+    },    
+    {
+        "id":8,
+        "name": "",
+        "photo":"url",
+        "subtitle": "",
+        "about": "",
+        "phrase":"",
+        "history": [ ],
+        "addedBy":""
+    },    
+    {
+        "id":9,
+        "name": "",
+        "photo":"url",
+        "subtitle": "",
+        "about": "",
+        "phrase":"",
+        "history": [ ],
+        "addedBy":""
+    },    
+    {
+        "id":10,
+        "name": "",
+        "photo":"url",
+        "subtitle": "",
+        "about": "",
+        "phrase":"",
+        "history": [ ],
+        "addedBy":""
+    },    
+    {
+        "id":11,
+        "name": "",
+        "photo":"url",
+        "subtitle": "",
+        "about": "",
+        "phrase":"",
+        "history": [ ],
+        "addedBy":""
+    },    
+    {
+        "id":12,
+        "name": "",
+        "photo":"url",
+        "subtitle": "",
+        "about": "",
+        "phrase":"",
+        "history": [ ],
+        "addedBy":""
+    },    
+    {
+        "id":13,
+        "name": "",
+        "photo":"url",
+        "subtitle": "",
+        "about": "",
+        "phrase":"",
+        "history": [ ],
+        "addedBy":""
+    },
+    {
+        "id":14,
+        "name": "",
+        "photo":"url",
+        "subtitle": "",
+        "about": "",
+        "phrase":"",
+        "history": [ ],
+        "addedBy":""
+    },    
+    {
+        "id":15,
+        "name": "",
+        "photo":"url",
+        "subtitle": "",
+        "about": "",
+        "phrase":"",
+        "history": [ ],
+        "addedBy":""
+    },
+    {
+        "id":16,
+        "name": "",
+        "photo":"url",
+        "subtitle": "",
+        "about": "",
+        "phrase":"",
+        "history": [ ],
+        "addedBy":""
+    },    
+    {
+        "id":17,
+        "name": "",
+        "photo":"url",
+        "subtitle": "",
+        "about": "",
+        "phrase":"",
+        "history": [ ],
+        "addedBy":""
+    },
+    {
+        "id":18,
+        "name": "",
+        "photo":"url",
+        "subtitle": "",
+        "about": "",
+        "phrase":"",
+        "history": [ ],
+        "addedBy":""
+    },    
+    {
+        "id":19,
+        "name": "",
+        "photo":"url",
+        "subtitle": "",
+        "about": "",
+        "phrase":"",
+        "history": [ ],
+        "addedBy":""
+    },
+    {
+        "id":20,
+        "name": "",
+        "photo":"url",
+        "subtitle": "",
+        "about": "",
+        "phrase":"",
+        "history": [ ],
+        "addedBy":""
+    }
+]
