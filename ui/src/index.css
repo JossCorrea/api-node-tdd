@@ -1,0 +1,417 @@
+/* body {
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+
+
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px; /* definir uma font-size padrão */
+}
+
+body {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+
+.img_home {
+  position: absolute;
+  width: 201px;
+  height: 211px;
+}
+
+/* define o tamanho da caixa */
+.container {
+margin: 0 auto;
+width: 100%;
+max-width: 960px;
+}
+
+/* --- NAV --- */
+.navegacao {
+  background-color: #674582;
+  color: white;
+  text-transform: uppercase;
+  box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+  padding: 1.5rem;
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.navegacao__itens{
+display: none;
+}
+
+.navegacao__menu-hamburguer{
+display:block;
+margin: 20px;
+}
+
+.navegacao__logo {
+max-width: 200px;
+}
+
+.navegacao__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.navegacao__itens.ativo {
+display: block;
+right: 0;
+top: 85px;
+width: 100%;
+background-color: #674582;
+text-align: center;
+padding: 3rem 0;
+transition: right 1s;
+}
+
+.navegacao__itens li > a {
+transition: all .2s;
+}
+
+.navegacao__itens li > a:hover {
+color: #C083B9;
+}
+
+.navegacao__menu-hamburguer img {
+background-color: #C083B9;
+border-radius: 5px;
+width: 7px;
+}
+
+.navegacao__nav {
+margin-bottom: 3rem;
+margin-right: 2rem;
+}
+
+.navegacao__nav li {
+font-size: 1.5rem;
+margin: 1rem;
+}
+
+.navegacao__redes-sociais a {
+margin: 0 1rem;
+}
+
+/* --- HEADER --- */
+
+
+.header {
+  min-height: 80vh;
+  height: 500px;
+  background: linear-gradient(rgba(255, 0, 255, 0.2),
+                              rgba(255, 0, 255, 0.2)),
+              url('/img/bg-banner-claro.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: white;
+/*    padding: 11rem 2rem 5rem 2rem;*/
+
+}
+.principal {
+  text-align: center;
+}
+
+.principal__titulo {
+text-transform: uppercase;
+font-size: 2.5rem;
+font-weight: 900;
+text-align: center;
+}
+
+.principal__sub {
+font-weight: 300;
+margin: 2rem 0 3rem 0;
+font-size: 1.5rem;
+}  
+
+
+/* --- SECTION MARAVILHOSAS --- */
+.maravilhosas__titulo {
+font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+color: #63458a;
+font-size: 2rem;
+text-align: center;
+}
+
+.maravilhosas__box {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+text-align: center;
+color: #63458a;
+}
+
+.maravilhosas__perfil {
+max-width: 120px;
+margin: 2rem;
+}
+
+/*.img{
+  width: 201px;
+}*/
+
+.maravilhosas__perfil img {
+background-color: #63458a;
+border-radius: 10px;
+}
+
+.maravilhosas__perfil a img {
+transition: all .5s;
+}
+
+.maravilhosas__perfil a:hover {
+text-decoration: underline;
+}
+
+.maravilhosas__perfil a:hover img {
+box-shadow: 0 3px 10px rgba(0,0,0,.2);
+}
+
+/* --- FOOTER --- */
+.rodape {
+background-color: #323534;
+color: white;
+}
+
+.rodape__principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem 0;
+  margin: 20px;
+}
+
+.rodape__principal > * {
+margin: 1rem 0;
+}
+
+.rodape__navegacao > li {
+font-size: 1.1rem;
+margin: 1rem;
+}
+
+.rodape__navegacao a {
+transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+color: #C083B9;
+}
+
+.rodape__logo {
+max-width: 200px;
+}
+
+.rodape__redes-sociais a {
+display: flex;
+align-items: center;
+justify-content: center;
+transition: all .5s;
+}
+
+.rodape__redes-sociais a:hover {
+color: #C083B9;
+}
+
+.rodape__redes-sociais img {
+max-width: 10px;
+margin-right: .5rem;
+}
+
+.rodape__redes-sociais span {
+display: flex;
+font-size: 1.5rem;
+}
+
+.rodape__cc {
+width: 100%;
+background-color: #292A2A;
+font-size: 1rem;
+opacity: 0.5;
+text-align: center;
+
+}
+
+ .navegacao__nav {
+      margin-bottom: 0;
+  }
+  
+ .navegacao__itens ul {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      align-items: center;
+      text-align: center;
+  }
+  
+  .navegacao__itens li {
+      font-size: 1.2rem;
+      margin: 0 .6rem;
+  }
+  
+   
+
+  /* --- HEADER --- */
+   .header {
+      min-height: 75vh;
+      text-align: left;
+      padding: 5rem 10rem;
+  }
+
+
+  main {
+  color: #674582;
+  }
+
+.titulo-bafao{
+  text-align: center;
+  font-size: 36px;
+}
+
+.img_text_persona{
+  display: flex;
+  justify-content: center;
+  margin: 10rem;
+  padding: 5rem;
+}
+
+.img_persona{
+  width: 285px;
+  padding: 1rem;
+  border-radius: 3rem;
+}
+
+.text_persona{
+  padding-left: 2rem;
+  margin-right: 3rem;
+  font-size: 13px;
+}
+
+.ada_quote{
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  margin: 20px auto;
+  border: purple 1px solid;
+  width: 63vw;  
+}
+
+
+.history_ada{
+  padding: 4px;
+  margin: 16px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img_persona_history{
+  width: 440px;
+}
+
+
+.caixa-lilas{
+width: 100%;
+  height: 131px;
+  display: flex;
+  justify-content: center;
+  background: rebeccapurple;
+  padding: 1rem;  
+}
+
+.bio{
+font-size: 17px;
+padding: 4rem;
+}
+
+.img-autora{
+width: 110px;
+height: 121px;;
+
+}
+
+.btn_responsivo{
+display: flex;
+justify-content: center;
+}
+
+.botao{
+justify-content: center;
+background-color: violet;
+padding: 8px;
+font-size: 18px;
+text-transform: uppercase;
+border-radius: 10px;
+color: white;
+}
+
+
+/*** MEDIA QUERIES ***/
+/* TABLET */
+
+@media screen and (min-width:880px){
+
+.header{
+  min-height: 30vh;
+  text-align: center;
+  padding: 5rem 10rem; 
+
+}
+
+.navegacao__itens {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.navegacao__menu-hamburguer{
+display: none;
+}
+
+
+}
+
+
