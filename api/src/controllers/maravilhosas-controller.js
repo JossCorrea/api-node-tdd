@@ -1,15 +1,28 @@
 let  model= require('../models/maravilhosas-models');
 
+//getMaravilhosas
+
+
+//getMaravilhosaById
+
+
 const getMaravilhosas = (req, res)=> {
-    console.log('getMaravilhosas')
-    model.selectAllData()
-    res.status(200).json({"message": "getMaravilhosas Sucesso"});
+    const { error, data } = model.selectAllData()
+    if (error === null){
+        res.status(200).json(data);
+    }else{
+        res.status(400).json({"message": error.message});
+    }
 };
 
 const getMaravilhosaById = (req, res)=>{
-    console.log('getMaravilhosaById')
-    model.selectDataById(req.params.id)
-    res.status(200).json({"message": "getMaravilhosaById Sucesso"});
+    const id = parseInt(req.params.id)
+    const { error, data } = model.selectDataById(id)
+    if (error === null){
+        res.status(200).json(data);
+    }else{
+        res.status(400).json({"message": error.message});
+    }
 };
 
 const addMaravilhosa = (req, res)=>{
