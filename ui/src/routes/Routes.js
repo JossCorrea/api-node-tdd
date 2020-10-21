@@ -8,6 +8,7 @@ import Home from '../pages/Home';
 import Profile from '../pages/Profile';
 import CreateProfile from '../pages/CreateProfile';
 import EditProfile from '../pages/EditProfile';
+import Layout from '../components/Layout';
 
 const NotFound = () => {
     return(
@@ -19,13 +20,15 @@ const NotFound = () => {
 const Routes = () => {
     return (
         <Router>
-            <Switch>
-                <Route path="/" exact component={Home}/>
-                <Route path="/profile/:id" exact component={Profile}/>
-                <Route path="/create-profile" exact component={CreateProfile}/>
-                <Route path="/edit-profile/:id" exact component={EditProfile}/>
-                <Route path="/*" exact component={NotFound}/>
-            </Switch>
+            <Layout>
+                <Switch>
+                    <Route path="/" exact component={Home}/>
+                    <Route path="/profile/:id" exact component={Profile}/>
+                    <Route path="/create-profile" exact component={CreateProfile}/>
+                    <Route path="/edit-profile/:id" exact component={EditProfile}/>
+                    <Route path="/*" exact component={NotFound}/>
+                </Switch>
+            </Layout>
         </Router>
     )
 }

@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["hVjWp"]); }
-
-__d("GoodwillTemplateBanzaiLogger",["Banzai"],(function(a,b,c,d,e,f){"use strict";a={logClickEvent:function(a,c){a.onclick=function(){c.goodwill_memories_and_celebrations&&b("Banzai").post("goodwill_memories_and_celebrations",c.goodwill_memories_and_celebrations),c.goodwill_video&&b("Banzai").post("goodwill_video",c.goodwill_video),c.goodwill_daily_dialogue&&b("Banzai").post("goodwill_cultural_moment_holiday_card",c.goodwill_daily_dialogue)}}};e.exports=a}),null);

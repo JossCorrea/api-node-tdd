@@ -1,11 +1,5 @@
 let  model= require('../models/maravilhosas-models');
 
-//getMaravilhosas
-
-
-//getMaravilhosaById
-
-
 const getMaravilhosas = (req, res)=> {
     const { error, data } = model.selectAllData()
     if (error === null){
@@ -19,6 +13,7 @@ const getMaravilhosaById = (req, res)=>{
     const id = parseInt(req.params.id)
     const { error, data } = model.selectDataById(id)
     if (error === null){
+        console.log(data)
         res.status(200).json(data);
     }else{
         res.status(400).json({"message": error.message});

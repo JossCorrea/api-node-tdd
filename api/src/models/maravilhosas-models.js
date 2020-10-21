@@ -1,38 +1,36 @@
-// let dados = require('../data/data.json')
+let dados = require('../data/data.json')
 
-// function selectAllData() {
-//     console.log('Model selectAllData')
-// }
+function selectAllData() {
 
-// function selectDataById(id) {
-//     const dadoEncontrado = dados.find(item => item.id === id)
-//     console.log('dado',dadoEncontrado)
+    return {error: null, data: dados}
+}
 
-//     if (dadoEncontrado){
-//         return {error: null, data: dadoEncontrado}
-//     } else{
-//         return {error: {message:"Registro não encontrado na base"}, data: null}
-//     }
-// }
+function selectDataById(id) {
+    const dadoEncontrado = dados.find(item => item.id === id)
 
-// function insertData(novaMaravilhosa) {
-//     console.log('Model insertData',novaMaravilhosa)
-// }
+    if (dadoEncontrado){
+        return {error: null, data: dadoEncontrado}
+    } else{
+        return {error: {message:"Registro não encontrado na base"}, data: null}
+    }
+}
 
-// function updateData(id, novaMaravilhosa) {
-//     console.log('Model updateData ',id,novaMaravilhosa)
-// }
+function insertData(novaMaravilhosa) {
+    console.log('Model insertData',novaMaravilhosa)
+}
 
-// function deleteData(id) {
-//     console.log('Model deleteData',id)
-// }
+function updateData(id, novaMaravilhosa) {
+    console.log('Model updateData ',id,novaMaravilhosa)
+}
 
-// module.exports = {
-//     selectAllData,
-//     selectDataById,
-//     insertData, 
-//     updateData,
-//     deleteData
-// }
-const str = 'VEJO A TECNOLOGIA MUITO VOLTADA PARA HUMANAS, MUITO VOLTADA AO ENTENDIMENTO DO QUE SÃO AS PESSOAS, DO QUE SÃO AS NECESSIDADES DAS PESSOAS, E COMO QUE A GENTE PODE MELHORAR A VIDA DELAS A PARTIR DA TECNOLOGIA'
-console.log(str.toLowerCase())
+function deleteData(id) {
+    console.log('Model deleteData',id)
+}
+
+module.exports = {
+    selectAllData,
+    selectDataById,
+    insertData, 
+    updateData,
+    deleteData
+}
