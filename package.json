@@ -1,0 +1,32 @@
+{
+  "name": "api-node-tdd",
+  "version": "1.0.0",
+  "description": "A tiny project to encourage to use tdd to write usefull endpoints ;)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joselialcosta/api-node-tdd.git"
+  },
+  "keywords": [
+    "tdd",
+    "node",
+    "expressjs"
+  ],
+  "author": "Joselia Costa, Jô Correa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joselialcosta/api-node-tdd/issues"
+  },
+  "homepage": "https://github.com/joselialcosta/api-node-tdd#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "prettier": "2.1.2"
+  }
+}
